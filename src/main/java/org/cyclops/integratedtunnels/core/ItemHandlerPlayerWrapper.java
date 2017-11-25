@@ -114,7 +114,7 @@ public class ItemHandlerPlayerWrapper implements IItemHandler {
 
             // Activate block
             IBlockState blockState = world.getBlockState(pos);
-            if (!player.isSneaking() || stack.isEmpty()) {
+            if (stack.isEmpty()) {
                 if (blockState.getBlock().onBlockActivated(world, pos, blockState, player, hand, side,
                         offsetX, offsetY, offsetZ)) {
                     returnPlayerInventory(player);
