@@ -114,6 +114,7 @@ aspect.aspecttypes.integratedtunnels.double.world.yaw.info=Left/right rotation b
 aspect.aspecttypes.integratedtunnels.double.world.pitch.name=Pitch
 aspect.aspecttypes.integratedtunnels.double.world.pitch.info=Up/down rotation between -180 to 180 degrees.
 aspect.aspecttypes.integratedtunnels.boolean.player.rightclick.name=Right Click
+aspect.aspecttypes.integratedtunnels.boolean.player.sneak.name=Sneak
 aspect.aspecttypes.integratedtunnels.integer.entityindex.name=Entity Index
 aspect.aspecttypes.integratedtunnels.integer.entityindex.info=The n-th entity that will be picked. -1 will always pick a random entity.
 aspect.aspecttypes.integratedtunnels.boolean.player.continuousclick.name=Continuous Click
